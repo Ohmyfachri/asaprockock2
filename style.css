@@ -1,0 +1,52 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.navbar{
+    display: flex;
+    padding: 35px 50px;
+    background-color: palevioletred;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+    margin-left: 560px;
+    font-family: monospace;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: palevioletred;
+}
+
+/* Notifikasi */
+.notification {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: -300px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    padding: 30px 60px;
+    border-radius: 5px;
+    font-size: 16px;
+    opacity: 0;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
